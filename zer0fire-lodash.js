@@ -873,9 +873,9 @@
           result.splice(i, result.length)
           temp.forEach(function (x){
             result = result.concat(x)
-            return result
           })
           result = result.concat(cache)
+          i--
         }
       }
       return result
